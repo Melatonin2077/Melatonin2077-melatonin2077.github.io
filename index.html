@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xiaojun Shang, Ph.D. | Personal Website</title>
+  <meta name="description" content="Xiaojun Shang, Ph.D. Assistant Professor at the Department of Computer Science and Engineering, University of Texas at Arlington." />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">XS</span>
+          <span class="brand-text">
+            <strong>Xiaojun Shang</strong>
+            <span>Computer Science and Engineering</span>
+          </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Selected Publications</a>
+          <a href="#group">Group</a>
+          <a href="#updates">News</a>
+          <a href="#service">Service</a>
+          <a class="nav-cta" href="publications.html">Full Publications</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Assistant Professor at UT Arlington</p>
+            <h1>Xiaojun Shang, Ph.D.</h1>
+            <p class="hero-subtitle">Developing practical algorithms and systems for computationally and data-intensive applications in distributed computing scenarios.</p>
+
+            <div class="hero-meta">
+              <div>
+                <span class="meta-label">Department</span>
+                <p>Computer Science and Engineering</p>
+              </div>
+              <div>
+                <span class="meta-label">Institution</span>
+                <p>University of Texas at Arlington</p>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a class="button primary" href="mailto:xiaojun.shang@uta.edu">Email</a>
+              <a class="button secondary" href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a>
+              <a class="button secondary" href="https://dblp.org" target="_blank" rel="noreferrer">DBLP</a>
+            </div>
+          </div>
+
+          <div class="hero-card reveal delay-1">
+            <div class="portrait-frame">
+              <img src="assets/profile-placeholder.svg" alt="Profile placeholder for Xiaojun Shang" />
+            </div>
+            <div class="profile-card">
+              <p class="profile-title">Background</p>
+              <p>Ph.D. in Computer Engineering, Stony Brook University</p>
+              <p>M.S. in Electrical Engineering, Columbia University</p>
+              <p>B.E. in Information and Communication Engineering, Zhejiang University</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About</p>
+            <h2>A concise academic profile</h2>
+          </div>
+          <div class="section-body reveal delay-1">
+            <p>Welcome. I am Xiaojun Shang, an assistant professor in the Department of Computer Science and Engineering at the University of Texas at Arlington.</p>
+            <p>My research interests lie in practical algorithms and systems for distributed computing, with an emphasis on computational efficiency, data-intensive applications, and emerging networked systems.</p>
+            <p>Before joining UTA, I completed my Ph.D. in Computer Engineering at Stony Brook University under the guidance of Prof. Yuanyuan Yang. I also received my M.S. in Electrical Engineering from Columbia University and my B.E. in Information and Communication Engineering from Zhejiang University.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section section-alt">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="eyebrow">Research</p>
+            <h2>Core research directions</h2>
+            <p class="section-intro">A focused set of topics at the intersection of systems, networks, and emerging computing platforms.</p>
+          </div>
+
+          <div class="card-grid four-col">
+            <article class="info-card reveal">
+              <div class="card-icon">01</div>
+              <h3>Connected and Autonomous Vehicles</h3>
+              <p>Communication, sensing, and systems support for next-generation intelligent transportation applications.</p>
+            </article>
+
+            <article class="info-card reveal delay-1">
+              <div class="card-icon">02</div>
+              <h3>Software Defined Networking</h3>
+              <p>Optimization and deployment strategies for service function chains, flow routing, and resilient edge-cloud systems.</p>
+            </article>
+
+            <article class="info-card reveal delay-2">
+              <div class="card-icon">03</div>
+              <h3>Machine Learning on Heterogeneous Systems</h3>
+              <p>Resource-aware learning and scheduling across edge, cloud, and heterogeneous execution environments.</p>
+            </article>
+
+            <article class="info-card reveal delay-3">
+              <div class="card-icon">04</div>
+              <h3>Distributed Quantum Computing</h3>
+              <p>Network design, entanglement routing, and interconnection strategies for distributed quantum systems.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Publications</p>
+            <h2>Selected recent work</h2>
+          </div>
+
+          <div class="pub-tabs reveal delay-1">
+            <button class="tab-button active" data-filter="all">All</button>
+            <button class="tab-button" data-filter="edge">Edge and networks</button>
+            <button class="tab-button" data-filter="quantum">Quantum computing</button>
+          </div>
+
+          <div class="publication-list selected-publications reveal delay-2">
+            <article class="publication-item" data-category="edge">
+              <span class="pub-badge">ICC 2026</span>
+              <h3>Sensor Data Transmission Optimization in Infrastructure-Assisted Cooperative Perception</h3>
+              <p>Accepted</p>
+            </article>
+
+            <article class="publication-item" data-category="edge">
+              <span class="pub-badge">SIGSPATIAL 2025</span>
+              <h3>Multi-view Spatial-Temporal-Type Learning for Heterogeneous City Service Time Estimation</h3>
+            </article>
+
+            <article class="publication-item" data-category="edge">
+              <span class="pub-badge">CNS 2025</span>
+              <h3>Practical Reflection Manipulation on mmWave-Based Physical Intrusion Detection</h3>
+            </article>
+
+            <article class="publication-item" data-category="edge">
+              <span class="pub-badge">LCN 2025</span>
+              <h3>Secured Data Sharing and Storage System for Intelligent Transportation System via Lightweight Blockchain</h3>
+            </article>
+
+            <article class="publication-item" data-category="edge">
+              <span class="pub-badge">TON 2025</span>
+              <h3><a href="https://ieeexplore.ieee.org" target="_blank" rel="noreferrer">Provable Approximation Algorithms for Online Traffic-Sensitive SFC Deployment</a></h3>
+            </article>
+
+            <article class="publication-item" data-category="edge">
+              <span class="pub-badge">INFOCOM 2023</span>
+              <h3><a href="https://ieeexplore.ieee.org" target="_blank" rel="noreferrer">Online Container Scheduling for Data-intensive Applications in Serverless Edge Computing</a></h3>
+            </article>
+
+            <article class="publication-item" data-category="quantum">
+              <span class="pub-badge">TON 2025</span>
+              <h3><a href="https://ieeexplore.ieee.org" target="_blank" rel="noreferrer">A Nonblocking Multistage Switching Network for Distributed Quantum Computing</a></h3>
+            </article>
+
+            <article class="publication-item" data-category="quantum">
+              <span class="pub-badge">ICDCS 2024</span>
+              <h3><a href="https://ieeexplore.ieee.org" target="_blank" rel="noreferrer">Multi-User Entanglement Routing Design over Quantum Internets</a></h3>
+              <p>Best Paper Award</p>
+            </article>
+          </div>
+
+          <div class="section-footer reveal delay-3">
+            <a class="button secondary" href="publications.html">View full publications list</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="group" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Group</p>
+            <h2>Lab members</h2>
+          </div>
+
+          <div class="member-grid">
+            <article class="member-card reveal">
+              <h3>Wei Lin</h3>
+              <p>UTA CSE Ph.D. student</p>
+              <span>Spring 2024 to present</span>
+            </article>
+
+            <article class="member-card reveal delay-1">
+              <h3>Wentao Dexter Gao</h3>
+              <p>UTA CSE Ph.D. student</p>
+              <span>Fall 2024 to present</span>
+            </article>
+
+            <article class="member-card reveal delay-2">
+              <h3>Talha Nayyar</h3>
+              <p>UTA CSE Ph.D. student</p>
+              <span>Fall 2025 to present</span>
+            </article>
+
+            <article class="member-card reveal delay-3">
+              <h3>Md. Sazid Reza</h3>
+              <p>UTA CSE Ph.D. student</p>
+              <span>Fall 2025 to present</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="updates" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">News</p>
+            <h2>Recent updates</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <span class="timeline-date">09/2024</span>
+              <p>Our paper on multi-user entanglement routing design over quantum internets won the Best Paper Award at ICDCS 2024.</p>
+            </article>
+            <article class="timeline-item reveal delay-1">
+              <span class="timeline-date">03/2024</span>
+              <p>Our paper on mobility-aware seamless virtual function migration was accepted to IEEE Transactions on Mobile Computing.</p>
+            </article>
+            <article class="timeline-item reveal delay-2">
+              <span class="timeline-date">03/2024</span>
+              <p>Our paper on joint virtual network function placement was accepted to IEEE Transactions on Computers.</p>
+            </article>
+            <article class="timeline-item reveal delay-3">
+              <span class="timeline-date">07/2023</span>
+              <p>Our paper on energy-aware online task offloading and resource allocation was accepted to ICDCS.</p>
+            </article>
+            <article class="timeline-item reveal">
+              <span class="timeline-date">01/2023</span>
+              <p>A summary of our recent work was published on ACM SIGMETRICS Performance Evaluation Review.</p>
+            </article>
+            <article class="timeline-item reveal delay-1">
+              <span class="timeline-date">12/2022</span>
+              <p>Two papers were accepted to INFOCOM 2023.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container three-col-layout">
+          <div class="mini-panel reveal">
+            <p class="eyebrow">Teaching</p>
+            <h2>Current course</h2>
+            <p>UTA CSE 2312</p>
+            <p>Computer Organization and Assembly Language</p>
+          </div>
+
+          <div id="service" class="mini-panel reveal delay-1">
+            <p class="eyebrow">Service</p>
+            <h2>Reviewer activity</h2>
+            <ul class="clean-list">
+              <li>IEEE INFOCOM</li>
+              <li>IEEE TPDS</li>
+              <li>IEEE/ACM IWQoS</li>
+              <li>IEEE GLOBECOM</li>
+              <li>IEEE/ACM ToN</li>
+            </ul>
+          </div>
+
+          <div class="mini-panel reveal delay-2">
+            <p class="eyebrow">Talks</p>
+            <h2>Selected oral presentations</h2>
+            <ul class="clean-list compact">
+              <li>INFOCOM 2023, New York</li>
+              <li>INFOCOM 2022</li>
+              <li>IWQoS 2020</li>
+              <li>INFOCOM 2020</li>
+              <li>ICPP 2019, Kyoto</li>
+              <li>GLOBECOM 2018, Abu Dhabi</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section">
+        <div class="container contact-card reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Get in touch</h2>
+            <p class="contact-copy">For research collaboration, student inquiries, or speaking opportunities, please reach out by email.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:xiaojun.shang@uta.edu">xiaojun.shang@uta.edu</a>
+            <a class="button secondary" href="https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/computer-science-and-engineering" target="_blank" rel="noreferrer">UTA CSE</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Xiaojun Shang</p>
+        <div class="footer-links">
+          <a href="publications.html">Publications</a>
+          <a href="mailto:xiaojun.shang@uta.edu">Email</a>
+          <a href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="https://dblp.org" target="_blank" rel="noreferrer">DBLP</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
